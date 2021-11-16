@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+html, body {
+	margin: 4px;
+	height: 100%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+* {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.sections-titles {
+  text-align: left;
+  font-family: 'Special Elite', cursive;
+}
+
+.sections {
+  margin: 2% 10%;
+  border-radius: 10px;
+  box-shadow: 5px 5px;
+  border-style: solid;
+  border-width: 0.5px;
+}
+
+#app {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+  margin: 8px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 2% 10%;
+
+}
+
+input,
+textarea {
+  padding: 5px;
+}
+
+form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  margin: 2% 10%;
+}
+
+ul {
+  padding: 1%;
+}
+
+li {
+  background-color: Cornsilk;
+  border: 1px solid BurlyWood;
+  border-radius: 5px 2px;
+  margin: 8px 0;
+}
+
+li div {
+  position: relative;
+}
+
+li div button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: 0;
+  padding: 10px;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+li div button:hover,
+li div button:focus {
+  box-shadow: 0 0 1px black;
+}
+
+li h2 {
+  background-color: NavajoWhite;
+  margin: 0;
+  padding: 4px;
+}
+
+li p {
+  margin: 8px;
+}
+
+button {
+  margin-bottom: 1%;
+}
+
+#phone-input {
+  margin: 2%;
+}
